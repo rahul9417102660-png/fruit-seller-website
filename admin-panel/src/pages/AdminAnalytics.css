@@ -1,0 +1,55 @@
+.admin-analytics {
+  max-width: 1200px;
+}
+
+.admin-analytics h1 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 28px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 20px;
+}
+
+.analytics-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.analytics-card h3 {
+  margin: 0 0 20px 0;
+  color: #333;
+  font-size: 18px;
+}
+
+.metrics-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.metric-item {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.metric-item span {
+  display: block;
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.metric-item p {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #667eea;
+}
